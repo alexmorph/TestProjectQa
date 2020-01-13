@@ -15,7 +15,6 @@ System.setProperty("webdriver.chrome.driver", System.getProperty("webdriver.chro
 
 //Default driver if the geb.env variable is not set
 driver = {
-	// Create chromePreferences for new capabilities that use maven's target directory as the download path
 	def driver = new ChromeDriver()
 	driver.manage().window().maximize()
 	return driver
