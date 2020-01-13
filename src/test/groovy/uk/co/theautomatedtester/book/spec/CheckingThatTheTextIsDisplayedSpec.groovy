@@ -17,7 +17,7 @@ import org.junit.*
 	 	"User clicks on 'Chapter1' link"()
 	 
 	 then: "User redirects to the Chapter1 page"
-	 	at Chapter1Page
+	 	at ChapterOnePage
 	 
 	 when:
 	 	 "User clicks on 'HomePage' link"()

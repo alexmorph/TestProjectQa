@@ -3,7 +3,7 @@ package uk.co.theautomatedtester.book.page
 import geb.Page
 import uk.co.theautomatedtester.book.config.*
 
-class Chapter1Page extends Page{
+class ChapterOnePage extends Page{
 	
 	static at = {
 		title == ClientConfiguration.chapter1PageTitle
